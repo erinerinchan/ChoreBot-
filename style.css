@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@400;500;700&display=swap');
+
+body {
+  background-color: #3921B3;
+  margin: 0px;
+}
+
+.header {
+  background-color: #9A75F0;
+  text-align: center;
+  display: block;
+  height: 60px;
+}
+
+.header > img {
+  display: inline;
+  height: 46px;
+  width: 165px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.title-row {
+  margin-top: 42px;
+  text-align: center;
+  margin-bottom: 21px;
+}
+
+.title-row > img {
+  display: inline;
+  height: 10px;
+  width: 10px;
+  text-align: center;
+}
+
+.instructions-title {
+  display: inline;
+  font-family: 'Asap Condensed', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #9A75F0;
+}
+
+.instructions-row {
+  margin: 0 auto;
+  width: 400px;
+}
+
+.instructions-number {
+  padding-right: 25px;
+  font-family: 'Asap Condensed', sans-serif;
+  font-size: 36px;
+  color: #9A75F0;
+}
+
+.instructions-text {
+  padding: 10px;
+  font-family: 'Asap Condensed', sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.door-row {
+  text-align: center;
+}
+
+.door-frame {
+  cursor: pointer;
+  padding: 10px;
+}
+
+.start-row {
+  margin: auto;
+  width: 120px;
+  height: 43px;
+  background-color: #9A75F0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: 'Asap Condensed', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  color: #3921B3;
+  margin-bottom: 9px;
+  cursor: pointer;
+  border: 5px solid #6005f2
+}
+
+.score-row {
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.score-text {
+  margin-right: 17px;
+  padding: 5px;
+  display: inline;
+  font-family: 'Asap Condensed', sans-serif;
+  font-size: 16px;
+  letter-spacing: 1.1px;
+  color: white;
+}
+
+.score-box {
+  margin-top: 9px;
+  display: inline-block;
+  padding: 8px;
+  margin: 18px;
+  margin-right: 29px;
+  width: 59px;
+  background-color: #9A75F0;
+  color: #3921B3;
+  font-family: 'Work Sans';
+  font-size: 45px;
+}
